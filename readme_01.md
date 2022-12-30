@@ -47,3 +47,6 @@ flutter pub get
 flutter build aar
 
 ```
+
+ref:
+1. https://xiejinpeng007-github-io.translate.goog/post/add-flutter-module-to-app/?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp
