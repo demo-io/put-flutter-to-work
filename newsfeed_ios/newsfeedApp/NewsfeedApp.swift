@@ -13,6 +13,7 @@ class FlutterDependencies: ObservableObject {
   init() {
     // Prepare a Flutter engine in advance.
     npsFlutterEngine.run()
+    GeneratedPluginRegistrant.register(with: self.npsFlutterEngine)
   }
 }
 
