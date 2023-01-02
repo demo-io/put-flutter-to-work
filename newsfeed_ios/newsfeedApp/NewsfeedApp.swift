@@ -13,6 +13,7 @@ class FlutterDependencies: ObservableObject {
   init() {
     // Prepare a Flutter engine in advance.
     npsFlutterEngine.run()
+    // # https://docs.flutter.dev/development/add-to-app/ios/add-flutter-screen
     GeneratedPluginRegistrant.register(with: self.npsFlutterEngine)
   }
 }
